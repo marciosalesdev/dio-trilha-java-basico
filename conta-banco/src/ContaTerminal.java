@@ -13,7 +13,7 @@ public class ContaTerminal {
         System.out.print("Por favor, digite o número da conta: ");
         conta.numero = scanner.nextInt();
 
-        scanner.nextLine(); // consume the newline left-over
+        scanner.nextLine(); // cavança para a nova pergunta
 
         System.out.print("Por favor, digite a agência (formato 000-0): ");
         conta.agencia = scanner.nextLine();
